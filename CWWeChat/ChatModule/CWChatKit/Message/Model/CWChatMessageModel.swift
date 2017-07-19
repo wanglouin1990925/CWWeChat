@@ -15,14 +15,8 @@ public enum CWMediaPlayStutus {
     case played
 }
 
-public protocol CWMessageBelong {
-    var isSend: Bool {get}
-}
-
-
-
 /// 消息model 
-public class CWChatMessageModel: NSObject, CWMessageBelong {
+public class CWChatMessageModel: NSObject {
 
     /// 聊天消息（后期需要修改 message设置为private）添加一些属性来做替换
     var message: CWMessage

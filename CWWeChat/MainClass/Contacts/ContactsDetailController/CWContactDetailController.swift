@@ -83,7 +83,10 @@ class CWContactDetailController: CWBaseTableViewController {
     }
 
     func goChatController() {
+        
         let chatVC = CWChatMessageController(targetId: userId)
+        // 重新设置
+        //        
         self.navigationController?.pushViewController(chatVC, animated: true)
     }
     

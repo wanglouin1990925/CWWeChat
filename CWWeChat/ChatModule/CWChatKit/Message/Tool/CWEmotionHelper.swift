@@ -11,5 +11,7 @@ import UIKit
 class CWEmotionHelper: NSObject {
     static let share = CWEmotionHelper()
     
+    // 解析
+    
     
 }

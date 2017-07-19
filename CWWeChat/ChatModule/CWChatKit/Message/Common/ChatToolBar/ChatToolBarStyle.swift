@@ -8,12 +8,7 @@
 
 import UIKit
 
-public enum CWEmoticonType: Int {
-    case image
-    case emoji
-    case favorite
-    case expression //
-}
+
 
 ///键盘相关的枚举
 public enum CWMoreItemType: Int {
